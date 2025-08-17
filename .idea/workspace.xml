@@ -5,13 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e7f34da-4ab3-438f-bac3-f5c9063f0435" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Disposable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Disposable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/ComputationScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/ComputationScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/IOThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/IOThreadScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/SingleThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minirx/Schedulers/SingleThreadScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/minirx/ObservableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/minirx/ObservableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/minirx/SchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/minirx/SchedulerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nikkywow"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nikkywow/mini-rx.git",
+    "accountId": "1a9cd037-552b-45e7-958b-41a9b8bd32cc"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -23,12 +55,113 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ObservableTest.testBasicSubscription.executor": "Run",
+    "JUnit.ObservableTest.testErrorHandling.executor": "Run",
+    "JUnit.ObservableTest.testFlatMapOperator.executor": "Run",
+    "JUnit.ObservableTest.testMapOperator.executor": "Run",
+    "JUnit.SchedulerTest.testObserveOn.executor": "Run",
+    "JUnit.SchedulerTest.testSubscribeOn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/nikita/IdeaProjects/mini-rx/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "/Users/nikita/IdeaProjects/mini-rx/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.SchedulerTest.testObserveOn">
+    <configuration name="ObservableTest.testBasicSubscription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-rx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minirx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minirx" />
+      <option name="MAIN_CLASS_NAME" value="com.minirx.ObservableTest" />
+      <option name="METHOD_NAME" value="testBasicSubscription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservableTest.testErrorHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-rx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minirx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minirx" />
+      <option name="MAIN_CLASS_NAME" value="com.minirx.ObservableTest" />
+      <option name="METHOD_NAME" value="testErrorHandling" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservableTest.testMapOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-rx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minirx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minirx" />
+      <option name="MAIN_CLASS_NAME" value="com.minirx.ObservableTest" />
+      <option name="METHOD_NAME" value="testMapOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulerTest.testObserveOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-rx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minirx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minirx" />
+      <option name="MAIN_CLASS_NAME" value="com.minirx.SchedulerTest" />
+      <option name="METHOD_NAME" value="testObserveOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulerTest.testSubscribeOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-rx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minirx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minirx" />
+      <option name="MAIN_CLASS_NAME" value="com.minirx.SchedulerTest" />
+      <option name="METHOD_NAME" value="testSubscribeOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SchedulerTest.testObserveOn" />
+        <item itemvalue="JUnit.SchedulerTest.testSubscribeOn" />
+        <item itemvalue="JUnit.ObservableTest.testErrorHandling" />
+        <item itemvalue="JUnit.ObservableTest.testMapOperator" />
+        <item itemvalue="JUnit.ObservableTest.testBasicSubscription" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +177,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/minirx/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
